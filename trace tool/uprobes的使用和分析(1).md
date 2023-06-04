@@ -24,5 +24,5 @@ uprobes 的工作方式和 kprobes 类似：将一个快速断点指令插入目
 
 如下图所示，设计逻辑和 kprobe+ftrace 非常相似，不同之处在于 uprobe 框架。
 
-![](./image/uprobes_trace.png)
+![111](./image/uprobes_trace.png)
 
