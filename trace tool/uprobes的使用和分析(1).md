@@ -14,12 +14,13 @@ uprobes 的工作方式和 kprobes 类似：将一个快速断点指令插入目
 照例，从使用、设计逻辑和源码解读来了解 uprobes。
 
 **一、使用**
+
 举两个例子，一个是 基于 ftrace的，一个是 perf 的。
 1、基于 ftrace 的uprobe 使用示例
 以 linux-5.15.60\Documentation\trace\uprobetracer.rst 的一个示例作为介绍。
 
 
-二、设计逻辑
+**二、设计逻辑**
 
 如下图所示，设计逻辑和 kprobe+ftrace 非常相似，不同之处在于 uprobe 框架。
 
